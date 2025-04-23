@@ -58,10 +58,6 @@ public class Test_User_Name_Present_In_Update_Profile implements AutomationConst
 			    System.out.println(nameText.getText());
 			    nameText.click();
 			    
-			    
-			   
-			  
-				
 				WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 				try {
 					
